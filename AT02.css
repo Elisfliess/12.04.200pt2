@@ -1,0 +1,50 @@
+.app{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "rosa ciano verde"
+    "azul ciano verde "
+    "vermelho vermelho vermelho";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 8fr 5fr 1fr;
+    grid-gap: 0px;
+}
+
+.rosa{
+    grid-area: rosa;
+    border: solid 5px black;
+    background-color:fuchsia;
+    color: white;
+}
+
+.azul{
+    grid-area: azul;
+    border: solid 5px black;
+    background-color:blue;
+    color: white;
+
+}
+
+.verde{
+    grid-area: verde;
+    border: solid 5px black;
+    background-color:green;
+    color: white;
+
+}
+
+.ciano{
+    grid-area: ciano;
+    border: solid 5px black;
+    background-color:cyan;
+    color: white;
+
+}
+
+.vermelho{
+    grid-area: vermelho;
+    border: solid 5px black;
+    background-color:red;
+    color: white;
+
+}
